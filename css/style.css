@@ -1,0 +1,47 @@
+/* Variables */
+
+:root {
+    --h-color: #22262d;
+    --m-color: #1abc9c;
+    --f-color: #3a546d;
+}
+
+/* /Variables */
+
+/* Common */
+
+body {
+    margin: 0;
+}
+
+/* /Common */
+
+/* Header */
+
+header {
+    color: #fff;
+    background-color: var(--h-color);
+}
+
+header>div {
+    height: 5.625rem;
+}
+
+/* /Header */
+
+/* Jumbo */
+
+.title {
+    text-transform: uppercase;
+}
+
+.jumbo {
+    color: #fff;
+    background-color: var(--m-color);
+}
+
+.jumbo>div {
+    height: 31rem;
+}
+
+/* /Jumbo */
