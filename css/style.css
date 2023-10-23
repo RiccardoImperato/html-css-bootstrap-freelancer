@@ -40,10 +40,6 @@ header>div {
     background-color: var(--m-color);
 }
 
-section {
-    height: 31rem;
-}
-
 /* /Jumbo */
 
 /* Contact me */
@@ -53,3 +49,21 @@ section {
 }
 
 /* /Contact me */
+
+/* Info */
+
+.blue-bg {
+    color: #fff;
+    background-color: #3a546d;
+}
+
+/* /Info */
+
+/*  Footer */
+
+footer {
+    color: #fff;
+    background-color: var(--h-color);
+}
+
+/* /Footer */
