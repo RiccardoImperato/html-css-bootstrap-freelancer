@@ -35,12 +35,12 @@ header>div {
     text-transform: uppercase;
 }
 
-.jumbo {
+.green-bg {
     color: #fff;
     background-color: var(--m-color);
 }
 
-.jumbo>div {
+section {
     height: 31rem;
 }
 
