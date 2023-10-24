@@ -1,0 +1,21 @@
+/* Components */
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.125rem;
+    text-align: center;
+    vertical-align: middle;
+    height: 3.125rem;
+    width: 3.125rem;
+    border: .125rem solid #fff;
+    border-radius: 50%;
+    margin: .625rem;
+    padding: .625rem;
+}
+
+/* Components */
