@@ -1,3 +1,6 @@
+@import url(./components/star.css);
+
+
 /* Variables */
 
 :root {
@@ -8,13 +11,6 @@
 
 /* /Variables */
 
-/* Common */
-
-body {
-    margin: 0;
-}
-
-/* /Common */
 
 /* Header */
 
@@ -31,13 +27,13 @@ header>div {
 
 /* Jumbo */
 
-.title {
-    text-transform: uppercase;
+#jumbo,
+#about {
+    background-color: var(--m-color);
 }
 
-.green-bg {
-    color: #fff;
-    background-color: var(--m-color);
+#jumbo img {
+    width: 14.5rem;
 }
 
 /* /Jumbo */
