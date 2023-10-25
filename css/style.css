@@ -1,10 +1,14 @@
+/* Import */
+
 @import url(./components/star.css);
 @import url(./components/social.css);
 
+/* Import */
 
 /* Variables */
 
 :root {
+    --b-color: #333;
     --h-color: #22262d;
     --m-color: #1abc9c;
     --f-color: #3a546d;
@@ -13,6 +17,10 @@
 /* /Variables */
 
 /* Common */
+
+body {
+    color: var(--b-color);
+}
 
 .btn {
     background-color: #1abc9c;

@@ -11,18 +11,14 @@
     margin: 0 .625rem;
 }
 
-.line {
+#star::before,
+#star::after {
+    content: "";
     height: .1875rem;
-    width: 5rem;
+    width: 30%;
+    max-width: 6.25rem;
     border-radius: .125rem;
-}
-
-.white {
-    background-color: #fff;
-}
-
-.black {
-    background-color: #000000;
+    background-color: currentColor;
 }
 
 /* Components */
